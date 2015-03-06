@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hill_climb">Hill Climb</string>
+    <string name="rest">Rest</string>
+    <string name="success">Success!</string>
+
+    <string-array name="exercise_names">
+        <item>Air Squats</item>
+        <item>Arm Circles</item>
+        <item>Bicycle</item>
+        <item>L-Seat</item>
+        <item>Leg Raises</item>
+        <item>Plank</item>
+        <item>Push Ups</item>
+        <item>Shoulder Bridge</item>
+        <item>Side Plank</item>
+        <item>Sit Ups</item>
+        <item>Stair Climbs</item>
+        <item>Static Lunges</item>
+    </string-array>
+
+    <string-array name="exercise_images">
+        <item>@drawable/air_squats</item>
+        <item>@drawable/arm_circles</item>
+        <item>@drawable/bicycle</item>
+        <item>@drawable/l_seat</item>
+        <item>@drawable/leg_raises</item>
+        <item>@drawable/plank</item>
+        <item>@drawable/push_ups</item>
+        <item>@drawable/shoulder_bridge</item>
+        <item>@drawable/side_plank</item>
+        <item>@drawable/sit_ups</item>
+        <item>@drawable/stair_climbs</item>
+        <item>@drawable/static_lunges</item>
+    </string-array>
+</resources>

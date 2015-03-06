@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#000000">
+
+    <TextView
+        android:id="@+id/headingTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffffff"
+        android:text="@string/settings_header"
+        android:textSize="32sp" />
+
+    <TextView
+        android:id="@+id/spacer01"
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:background="#ffffffff"
+        android:layout_below="@+id/headingTextView"
+        android:layout_alignParentStart="false" />
+
+    <TextView
+        android:id="@+id/setCountMessageTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spacer01"
+        android:layout_alignParentStart="true"
+        android:textColor="#ffffffff"
+        android:text="@string/settings_sets"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp" />
+
+    <ImageButton
+        android:id="@+id/setCountIncreaseImageButton"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignBottom="@+id/setCountMessageTextView"
+        android:layout_alignTop="@+id/setCountMessageTextView"
+        android:background="@drawable/plus"
+        android:clickable="true" />
+
+    <TextView
+        android:id="@+id/setCountSelectedTextView"
+        android:layout_width="48dp"
+        android:layout_height="32dp"
+        android:layout_toStartOf="@id/setCountIncreaseImageButton"
+        android:layout_alignBottom="@+id/setCountMessageTextView"
+        android:layout_alignTop="@+id/setCountMessageTextView"
+        android:textColor="#ffffffff"
+        android:text="@string/zero"
+        android:gravity="center"
+        android:textSize="24sp" />
+
+    <ImageButton
+        android:id="@+id/setCountReduceImageButton"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_toStartOf="@id/setCountSelectedTextView"
+        android:layout_alignBottom="@+id/setCountMessageTextView"
+        android:layout_alignTop="@+id/setCountMessageTextView"
+        android:background="@drawable/minus"
+        android:clickable="true" />
+
+    <TextView
+        android:id="@+id/spacer02"
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:layout_below="@+id/setCountSelectedTextView"
+        android:layout_alignParentStart="true"
+        android:background="#ffffffff" />
+
+    <TextView
+        android:id="@+id/exerciseCountMessageTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spacer02"
+        android:layout_alignParentStart="true"
+        android:textColor="#ffffffff"
+        android:text="@string/settings_reps"
+        android:paddingLeft="2dp"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"
+        android:paddingRight="2dp" />
+
+    <ImageButton
+        android:id="@+id/exerciseCountIncreaseImageButton"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignBottom="@+id/exerciseCountMessageTextView"
+        android:layout_alignTop="@+id/exerciseCountMessageTextView"
+        android:background="@drawable/plus"
+        android:clickable="true" />
+
+    <TextView
+        android:id="@+id/exerciseCountSelectedTextView"
+        android:layout_width="48dp"
+        android:layout_height="32dp"
+        android:layout_toStartOf="@id/exerciseCountIncreaseImageButton"
+        android:layout_alignBottom="@+id/exerciseCountMessageTextView"
+        android:layout_alignTop="@+id/exerciseCountMessageTextView"
+        android:textColor="#ffffffff"
+        android:text="@string/zero"
+        android:gravity="center"
+        android:textSize="24sp" />
+
+    <ImageButton
+        android:id="@+id/exerciseCountReduceImageButton"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_toStartOf="@id/exerciseCountSelectedTextView"
+        android:layout_alignBottom="@+id/exerciseCountMessageTextView"
+        android:layout_alignTop="@+id/exerciseCountMessageTextView"
+        android:background="@drawable/minus"
+        android:clickable="true" />
+
+    <TextView
+        android:id="@+id/spacer03"
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:layout_below="@+id/exerciseCountSelectedTextView"
+        android:layout_centerHorizontal="true"
+        android:background="#ffffffff" />
+
+</RelativeLayout>

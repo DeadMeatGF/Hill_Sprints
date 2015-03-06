@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Hill Sprints</string>
+    <string name="detail_page">http://greatist.com/fitness/50-bodyweight-exercises-you-can-do-anywhere</string>
+    <string name="action_settings">Settings</string>
+    <string name="begin">Begin</string>
+    <string name="settings_header">Settings</string>
+    <string name="settings_sets">Number of Sets</string>
+    <string name="settings_reps">Number of Exercises/set</string>
+    <string name="zero">0</string>
+    <string name="preference_file_key">android.stevegiller.co.uk.hillsprintsprefs</string>
+    <string name="set_length">Set Length</string>
+    <string name="set_total">Set Total</string>
+</resources>
