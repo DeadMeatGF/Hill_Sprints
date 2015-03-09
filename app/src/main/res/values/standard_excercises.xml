@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="standard_exercises">
+        <item>Air Squats</item>
+        <item>Arm Circles</item>
+        <item>Bicycles</item>
+        <item>Leg Raises</item>
+        <item>Mountain climber</item>
+        <item>Plank</item>
+        <item>Push ups</item>
+        <item>Shoulder Bridge</item>
+        <item>Sit ups</item>
+        <item>Squat thrusts</item>
+    </string-array>
+
+    <string-array name="intermediate_exercises">
+        <item>One leg air squats</item>
+        <item>Bear crawl</item>
+        <item>Burpees</item>
+        <item>Jumping Squats</item>
+        <item>Lateral bear crawl</item>
+        <item>Press-up plank</item>
+        <item>Side planks</item>
+        <item>Tuck Jumps</item>
+    </string-array>
+
+    <string-array name="expert_exercises">
+        <item>Burpee jumps</item>
+        <item>Spiderman press ups</item>
+    </string-array>
+
+    <string-array name="standard_images">
+        <item>@drawable/air_squats</item>
+        <item>@drawable/arm_circles</item>
+        <item>@drawable/bicycle</item>
+        <item>@drawable/leg_raises</item>
+        <item>@drawable/mountain_climber</item>
+        <item>@drawable/plank</item>
+        <item>@drawable/push_ups</item>
+        <item>@drawable/shoulder_bridge</item>
+        <item>@drawable/sit_ups</item>
+        <item>@drawable/squat_thrust</item>
+    </string-array>
+
+    <string-array name="intermediate_images">
+        <item>@drawable/one_leg_air_squats</item>
+        <item>@drawable/bear_crawl</item>
+        <item>@drawable/burpees</item>
+        <item>@drawable/squat_jumps</item>
+        <item>@drawable/press_up_plank</item>
+        <item>@drawable/side_plank</item>
+        <item>@drawable/tuck_jumps</item>
+    </string-array>
+
+    <string-array name="expert_images">
+        <item>@drawable/burpee_jumps</item>
+        <item>@drawable/spiderman_pressups</item>
+    </string-array>
+
+</resources>
