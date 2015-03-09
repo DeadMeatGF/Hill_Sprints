@@ -110,7 +110,7 @@ public class SprintsActivity extends ActionBarActivity implements TextToSpeech.O
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
-            Intent intent = new Intent(this, SprintsSettingsActivity.class);
+            Intent intent = new Intent(this, HillSprintsSettingsActivity.class);
             startActivity(intent);
             return true;
         }

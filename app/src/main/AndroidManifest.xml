@@ -12,7 +12,6 @@
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -20,6 +19,18 @@
             android:name=".SprintsSettingsActivity"
             android:label="@string/title_activity_sprints_settings"
             android:parentActivityName=".SprintsActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="android.stevegiller.co.uk.hillsprints.SprintsActivity" />
+        </activity>
+        <activity
+            android:name=".HillSprintsSettingsActivity"
+            android:label="@string/title_activity_sprints_settings"
+            android:parentActivityName=".SprintsActivity" >
+            <intent-filter>
+                <action android:name=".Preferences" />
+                <category android:name="android.intent.category.PREFERENCE" />
+            </intent-filter>
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="android.stevegiller.co.uk.hillsprints.SprintsActivity" />

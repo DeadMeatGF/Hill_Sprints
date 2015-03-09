@@ -14,11 +14,11 @@ public class TimePickerPreference extends DialogPreference {
     public TimePickerPreference(Context context, AttributeSet attrs) {
         super(context, attrs);
 
-        setDialogLayoutResource(R.layout.timepicker_preference_dialog);
-        setPositiveButtonText(android.R.string.ok);
-        setNegativeButtonText(android.R.string.cancel);
+//        setDialogLayoutResource(R.layout.timepicker_preference_dialog);
+//        setPositiveButtonText(android.R.string.ok);
+//        setNegativeButtonText(android.R.string.cancel);
 
-        setDialogIcon(null);
+//        setDialogIcon(null);
     }
 
     @Override
