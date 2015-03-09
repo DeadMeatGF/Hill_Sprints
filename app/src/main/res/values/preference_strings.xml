@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="preference_file_key">android.stevegiller.co.uk.hillsprintsprefs</string>
+    <string name="pref_settings_header">Settings</string>
+    <string name="pref_settings_sets">Number of Sets</string>
+    <string name="settings_reps">Number of Exercises/set</string>
+    <string name="pref_notification_time">notification_time</string>
+    <string name="pref_title_notification_time">Notification Time</string>
+    <string name="pref_notification_time_default">12:00</string>
+</resources>
