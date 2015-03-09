@@ -10,4 +10,6 @@
     <string name="preference_file_key">android.stevegiller.co.uk.hillsprintsprefs</string>
     <string name="set_length">Set Length</string>
     <string name="set_total">Set Total</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_confirm">OK</string>
 </resources>

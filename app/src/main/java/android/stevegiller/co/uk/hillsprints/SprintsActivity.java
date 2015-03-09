@@ -36,8 +36,8 @@ public class SprintsActivity extends ActionBarActivity implements TextToSpeech.O
     Exercise rest;
     Exercise success;
     Random exercise_selector = new Random(SystemClock.elapsedRealtime());
-    String[] exercises;
-    TypedArray images;
+    String[] standardExercises;
+    TypedArray standardImages;
     Button startSprintsButton;
 
     static SharedPreferences sharedPref;
@@ -62,7 +62,7 @@ public class SprintsActivity extends ActionBarActivity implements TextToSpeech.O
         set_total = sharedPref.getInt(context.getString(R.string.set_total), SprintsSettingsActivity.DEFAULT_SETS);
         set_length = sharedPref.getInt(context.getString(R.string.set_length), SprintsSettingsActivity.DEFAULT_EXERCISES);
         setCountTextView.setText(set_total + " sets");
-        exerciseCountTextView.setText(set_length + " exercises per set");
+        exerciseCountTextView.setText(set_length + " standardExercises per set");
     }
 
     @Override
@@ -80,8 +80,8 @@ public class SprintsActivity extends ActionBarActivity implements TextToSpeech.O
         hillClimb = new Exercise(getResources().getString(R.string.hill_climb), R.drawable.hill_climb);
         rest = new Exercise(getResources().getString(R.string.rest), R.drawable.exhausted);
         success = new Exercise(getResources().getString(R.string.success), R.drawable.success);
-        images = getResources().obtainTypedArray(R.array.exercise_images);
-        exercises = getResources().getStringArray(R.array.exercise_names);
+        standardImages = getResources().obtainTypedArray(R.array.standard_images);
+        standardExercises = getResources().getStringArray(R.array.standard_exercises);
         startSprintsButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -132,8 +132,8 @@ public class SprintsActivity extends ActionBarActivity implements TextToSpeech.O
         exerciseList.clear();
         setList.clear();
 
-        for (int exerciseLoop = 0; exerciseLoop < exercises.length; exerciseLoop++) {
-            exerciseList.add(new Exercise(exercises[exerciseLoop], images.getResourceId(exerciseLoop, -1)));
+        for (int exerciseLoop = 0; exerciseLoop < standardExercises.length; exerciseLoop++) {
+            exerciseList.add(new Exercise(standardExercises[exerciseLoop], standardImages.getResourceId(exerciseLoop, -1)));
         }
 
         for (exercise_loader = 1; exercise_loader <= set_length; exercise_loader++) {

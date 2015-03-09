@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="hill_climb">Hill Climb</string>
+    <string name="rest">Rest</string>
+    <string name="success">Success</string>
+
     <string-array name="standard_exercises">
         <item>Air Squats</item>
         <item>Arm Circles</item>
